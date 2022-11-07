@@ -113,3 +113,4 @@ async def on_message(message):
 print(bot.get_guild(SERVER_ID))
 print(bot.get_channel(1036700090993213481))
 bot.run(DISCORD_TOKEN)
+ 
