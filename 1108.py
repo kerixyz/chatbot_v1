@@ -7,7 +7,7 @@ from discord.ext import commands
 
 
 ## Discord Section ##
-os.environ['DISCORD_BOT_TOKEN'] = 'MTAzNjQ1NDU5MDYxNjQ0NDk3OQ.GKDl84.eSV3W6jiOyGmfjhPXesOuvsHWvJSE2dGUmOCgU'
+os.environ['DISCORD_BOT_TOKEN'] = ''
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="~", intents=intents)
