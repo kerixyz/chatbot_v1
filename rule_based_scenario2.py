@@ -4,7 +4,8 @@
 def convo_start(streamer):
     # Initializations
     convo_paths = {
-        'no': convo_no_1
+        'no': convo_no_1,
+        'yes': convo_yes_1
     }
 
     print(f"Hey thanks for watching {streamer} stream. Would you mind ansswering a few questions about your experience?")
