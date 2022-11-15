@@ -48,9 +48,9 @@ X_val = np.asarray(val_set.comment_text)
 X_test = np.asarray(test_set.comment_text)
 
 #outputs
-y_train = train_set.constructive_binary.astype('int8')
-y_val = val_set.constructive_binary.astype('int8')
-y_test = test_set.constructive_binary.astype('int8')
+y_train = train_set.constructive_binary.astype('int8').tolist()
+y_val = val_set.constructive_binary.astype('int8').tolist()
+y_test = test_set.constructive_binary.astype('int8').tolist()
 
 #loading the transformer model from hugging face
 t = text.Transformer(MODEL_NAME, maxlen=MAXLEN, class_names=LABELS)
@@ -66,7 +66,7 @@ model = t.get_classifier()
 learner = ktrain.get_learner(model, train_data=train_final, val_data=val_final, batch_size=32) #another prameter to finetune
 
 #fitting hte training data
-learner.fit_oncecycle(1e-5, 4)
+learner.fit_onecycle(1e-5, 4)
 
 #validation step
 learner.validate(class_names = t.get_classes())
