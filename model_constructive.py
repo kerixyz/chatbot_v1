@@ -17,7 +17,7 @@ MODEL_NAME = 'bert-base-uncased' #distilbert is 40% smaller than bert and still 
 MAXLEN = 150 #can finetune parameter later
 
 ##data source: https://www.kaggle.com/datasets/mtaboada/c3-constructive-comments-corpus
-df = pd.read_csv(PATH_DATA + 'C3.csv')
+df = pd.read_csv(PATH_DATA + 'C3_small.csv')
 
 #we're using stratified train and test splitting
 #need to do it multiple times i guess? first round gives us intermediate set, and test set, then second round is train set then validation set
