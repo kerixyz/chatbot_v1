@@ -12,7 +12,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="~", intents=intents)
 
-#on_ready is an event when the bot has logged in and finished set things up
+#on_ready is an event wshen the bot has logged in and finished set things up
 @bot.event
 async def on_ready():
   print("I'm logged in as", bot.user)
