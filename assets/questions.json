@@ -1,0 +1,74 @@
+{
+    "About Viewer":
+    {
+        "Situation":[
+            "How would you describe yourself in one sentence?",
+            "How is life?"
+        ],
+        "Impact":[
+        ],
+        "Behaviour":[
+
+        ]
+    },
+    "General Interest":
+    {
+        "Situation":[
+            "What are your favorite things?",
+            "What are your favorite hobbies?",
+            "What makes you angry?"
+        ],
+        "Impact":[
+
+        ],
+        "Behaviour":[
+            
+        ]
+    },
+    "Game Interest":
+    {
+        "Situation":[
+            "What's your favorite game of all time",
+            "What's a game you thought you'd like but you hated?",
+            "What's a popular game everyone loves but you don't like?",
+            "What's a game you didn't expect to enjoy but ended up liking?",
+            "What's your favorite game of all time?",
+            "What game should we play next?"
+        ],
+        "Impact":[
+
+        ],
+        "Behaviour":[
+            
+        ]
+    },
+    "Referral Question":
+    {
+        "Situation":[
+            "How did you find my stream?",
+            "Was it easy for you to find relevant content?",
+            "How did you find or hear about us?",
+            "Are you receiving notifications when I go live?"
+        ],
+        "Impact":[
+
+        ],
+        "Behaviour":[
+            
+        ]
+    },
+    "Other":
+    {
+        "Situation":[
+            "Would you be willing to check out my art website?",
+            "Would you be willing to commission an art piece from me?",
+            "How can I win gaming competitions?"
+        ],
+        "Impact":[
+
+        ],
+        "Behaviour":[
+            
+        ]
+    }
+}
